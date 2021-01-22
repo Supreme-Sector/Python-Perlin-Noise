@@ -1,10 +1,14 @@
 import random
 
 class Perlin:
-    def __init__(self, frequency):
+    def __init__(self, frequency, seed=None):
         if frequency < 2:
             print("Frequency has to be at least 2")
             return
+        
+        if seed != None:
+            random.seed(seed)
+        
         self.gradients = []
         self.frequency = frequency
         self.lowerBound = 0
