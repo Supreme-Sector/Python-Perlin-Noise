@@ -2,4 +2,4 @@
 An instantiation of the Python Perlin class allows you to generate Perlin Noise
 
 ## Video
-https://youtu.be/_MyIHylhSN8
+https://youtu.be/QHdU1XRB9uw
